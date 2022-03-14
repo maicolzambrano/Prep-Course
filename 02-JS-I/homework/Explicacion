@@ -1,0 +1,49 @@
+Variable;
+es una forma de almacenar el valor de algo para usarse mas tarde.
+para declarar una variable utilizamos la palabra 
+e un espacio y el nombre de la variable(podemos usar cualquier nonbre para identificar una variable);
+ejemplo; 
+    var toni "hola"
+aqui ya tenemos la vareable lista que en esta caso su nombre es :toni: y su valor asignado "hola" tenemos que tener
+en cuenta que para asignar el valor a una variable nesecitamos asignarla con  el signo de igualdad que seria :  =  : 
+entonces nos quedaria asi 
+    ejenmplo; var toni = "hola" 
+con esto ya la vareable se podria utilizar.
+
+
+Estrings;
+estan son bloques de texto que a la hora de usarlas tendremos situarlas dentro de dos comillas una al inicio y una al final;
+pueden ser comillas dobles ( " ) o comillas simples ( ' ) las estrings funcionaran con cualquiera de estas comillas de igual manera,
+
+    ejemplo; var nombredeperro = "firulais"
+    ejenplo; var nombredeperro = 'firulais'.
+
+
+
+funciones;
+las funciones son similar a un procedimiento,son un conjunto de instrucciones que realizan una tareo o calcula un valor,
+para que un procedimiento califique com funcion,debe tomar alguna entrada y una salida dandole una relacion obvia entre 
+la entrada y la salida.
+para usar una funcion debes definirla en algún lugar del ámbito desde el que deseas llamarla.
+Una definicion de funcion (también denominada declaración de función o expresión de función) consta de palabras clave seguidas de el nombre de la funcion Una lista de parámetros de la función, entre paréntesis y separados por comas.
+Las declaraciones de JavaScript que definen la función, encerradas entre llaves, { ... }.
+ejemplo;
+    function devolverSuma(x, y)    aqui le pedimos a la funcion que nos devuelva la suma de x , y,
+    {var suma = x + y;              aqui tenemos los argumentos para que la funcion se ejecute,
+            return suma;}          esto es lo que nos retornaria la suma de x + y.
+
+
+
+If;
+este es una forma de que la funcion verifique si algo es true o false en un codigo suministrado,
+ejemplo;
+ function puedesmanejar(edad) {
+     if (edad > 18)          aqui estamos pidiendo que (edad sea mayor a 18)si es asi nos daria true y la funcion se detendra si no omitira el 
+     {return true;}          codigo y devolvera false
+     return false;}
+ }.
+
+
+
+valores booleanos  ("true" , "false");
+los booleanos son singnificar verdadero o falso.
